@@ -47,4 +47,5 @@ else
 	//Spoofed merchantid, not to be accepted
 	echo "FAIL";
 }
+
 ?>
