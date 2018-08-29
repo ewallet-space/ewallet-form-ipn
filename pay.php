@@ -16,6 +16,7 @@ $userid = '0';
 $ipn = 'https://example.org/ipn.php';
 
 ?>
+
 <form action="https://ewallet.space/pay.php" method="post">
 	<input type="hidden" name="pmi" value="<?php echo $merchantid; ?>">
 	<input type="hidden" name="pa" value="<?php echo $amount; ?>">
