@@ -1,8 +1,9 @@
 <?php
+
 //Your ID
 $mymerchant = "0";
 
-//Dont change anything else here
+//Don't change anything else here (unless you know what you're doing)
 $token = $_POST['token'];
 $merchant = $_POST['merchant'];
 if((string)$merchant == (string)$mymerchant)
